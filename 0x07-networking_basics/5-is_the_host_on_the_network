@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #this script pings an IP address inserted by a user
-if [ ! -z "$1"]; then
+if [ ! -z "$0" ]; then
     ping $1 -c 5
 else
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
